@@ -1,0 +1,52 @@
+.btn-primary{
+
+    padding: 1.6rem 2.6rem;
+    background: $brand-yellow;
+    font-weight: 600; 
+    color: #855B35;
+    
+    transition: background-color .3s;
+
+    &:hover{
+        background: #FFDC5C;
+    }
+  
+}
+
+.btn-secondary{
+    padding: 1.2rem 1.8rem;
+    background: transparent;
+    border: 1px solid $brand-light-blue;
+    font-weight: bold;
+    color: $brand-light-blue;
+
+    transition: all .3s;
+
+    &:hover{
+        background: $brand-light-blue;
+        color: white;
+    }
+
+    &.white{
+        border: 1px solid white;
+        color: white;
+
+        &:hover{
+            background-color: white;
+            color: $brand-green-light;
+        }
+    
+ }
+}
+
+.btn-primary, .btn-secondary{
+    align-items: center;
+    justify-content: center;
+    max-width: 23.4rem;
+    border-radius: 122px;
+    font-family: 'Poppins';
+    font-size: 1.6rem;
+    line-height: 100%;
+    text-align: center;
+}
+
